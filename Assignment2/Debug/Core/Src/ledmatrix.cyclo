@@ -1,0 +1,3 @@
+../Core/Src/ledmatrix.c:5:19:LED_Matrix_Init	3
+../Core/Src/ledmatrix.c:23:19:LED_Matrix_SetBrightness	1
+../Core/Src/ledmatrix.c:29:6:LED_Matrix_AllOn	2

@@ -1,0 +1,15 @@
+../Core/Src/main.c:61:8:GET_TEMP	1
+../Core/Src/main.c:67:8:GET_HUMID	1
+../Core/Src/main.c:73:8:GET_PRES	1
+../Core/Src/main.c:79:8:GET_MAG	1
+../Core/Src/main.c:89:7:GET_MAG_DATA	1
+../Core/Src/main.c:103:7:MAG_CALIBRATE	1
+../Core/Src/main.c:127:7:detect_ghost_direction	14
+../Core/Src/main.c:192:7:IMU_CALIBRATE	1
+../Core/Src/main.c:207:8:GET_ACC	1
+../Core/Src/main.c:215:7:GhostBustingModeStartupBeep	3
+../Core/Src/main.c:333:7:Self_Destruct_Sequence	10
+../Core/Src/main.c:393:7:HAL_GPIO_EXTI_Callback	8
+../Core/Src/main.c:474:6:main	27
+../Core/Src/main.c:688:14:MX_GPIO_Init	1
+../Core/Src/main.c:719:14:UART1_Init	2
