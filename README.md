@@ -4,11 +4,24 @@
 This repository contains the firmware for a project focused on using the STM32 microcontroller for ghost detection and characterization. Developed as part of the EE2028 - Microcontroller Interfacing and Programming module in AY2024/2025, the project incorporates multiple sensors and unique features to create an interactive ghost-hunting experience.
 
 ## Core Features
-These are the essential implementations required for all students in the module:
+**Double Push Button Detection**: Uses interrupts to detect two quick button presses, allowing smooth switching between Normal Mode and Ghost Busting Mode. A single press is also used for specific actions, such as capturing ghosts in Ghost Busting Mode.
 
-- **Double Push Button Detection**: Using interrupts to detect two quick button presses.
-- **UART Telemetry**: Sends telemetry data to a computer via UART for real-time monitoring.
-- **Sensor Data Integration**: Reads data from onboard sensors, including a magnetometer, IMU, and environmental sensors (pressure and temperature).
+**UART Telemetry**: Sends real-time telemetry data to a connected computer via UART, allowing continuous monitoring of environmental and sensor data. Warning messages are also transmitted when specific sensor thresholds are exceeded. This includes detailed information for each reading (temperature, pressure, humidity, accelerometer, gyroscope, and magnetometer), making it easy to analyze data in real time.
+
+**Sensor Data Integration**: Collects data from a range of onboard sensors for a comprehensive environmental overview. Sensors include:
+
+Magnetometer: Functions as a spectral compass, detecting magnetic orientation to determine ghost proximity and direction.
+Temperature Sensor: Detects sudden temperature drops, which may indicate ghostly presence.
+Humidity Sensor: Tracks atmospheric humidity changes that could suggest paranormal activity.
+Pressure Sensor: Monitors changes in atmospheric pressure to detect potential ghost disturbances.
+Accelerometer and Gyroscope (IMU): Ensures the device remains steady and detects unusual movements or orientation shifts, which may signify ghost interaction.
+Calibration and Thresholds:
+
+**Magnetometer and IMU Calibration**: Each sensor has an initial calibration routine to eliminate offsets, ensuring accurate readings. This calibration enhances the precision of ghost detection by setting reliable baselines.
+Threshold Detection: Dynamic thresholds for each sensor (e.g., temperature, pressure, humidity) trigger warnings upon crossing set limits. This enables prompt detection of ghostly disturbances, with messages sent over UART detailing the specific anomalies.
+Mode-based LED and Buzzer Feedback:
+
+**LED Indicator**: The LED blinks at varying frequencies to signify proximity to detected ghosts, providing visual feedback based on ghost distance.
 
 ## Additional Features
 - **6-axis IMU 3D Visualization**: 
