@@ -10,14 +10,14 @@ This repository contains the firmware for a project focused on using the STM32 m
 
 **Sensor Data Integration**: Collects data from a range of onboard sensors for a comprehensive environmental overview. Sensors include:
 
-Magnetometer: Functions as a spectral compass, detecting magnetic orientation to determine ghost proximity and direction.
-Temperature Sensor: Detects sudden temperature drops, which may indicate ghostly presence.
-Humidity Sensor: Tracks atmospheric humidity changes that could suggest paranormal activity.
-Pressure Sensor: Monitors changes in atmospheric pressure to detect potential ghost disturbances.
-Accelerometer and Gyroscope (IMU): Ensures the device remains steady and detects unusual movements or orientation shifts, which may signify ghost interaction.
-Calibration and Thresholds:
+-Magnetometer: Functions as a spectral compass, detecting magnetic orientation to determine ghost proximity and direction.
+-Temperature Sensor: Detects sudden temperature drops, which may indicate ghostly presence.
+-Humidity Sensor: Tracks atmospheric humidity changes that could suggest paranormal activity.
+-Pressure Sensor: Monitors changes in atmospheric pressure to detect potential ghost disturbances.
+-Accelerometer and Gyroscope (IMU): Ensures the device remains steady and detects unusual movements or orientation shifts, which may signify ghost interaction.
+**Calibration and Thresholds**:
 
-**Magnetometer and IMU Calibration**: Each sensor has an initial calibration routine to eliminate offsets, ensuring accurate readings. This calibration enhances the precision of ghost detection by setting reliable baselines.
+-Magnetometer and IMU Calibration: Each sensor has an initial calibration routine to eliminate offsets, ensuring accurate readings. This calibration enhances the precision of ghost detection by setting reliable baselines.
 Threshold Detection: Dynamic thresholds for each sensor (e.g., temperature, pressure, humidity) trigger warnings upon crossing set limits. This enables prompt detection of ghostly disturbances, with messages sent over UART detailing the specific anomalies.
 Mode-based LED and Buzzer Feedback:
 
