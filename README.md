@@ -67,3 +67,8 @@ The code checks for threshold values in each axis (X, Y, Z) to determine the dir
 
 ## Key Learning Points
 Through this project, I gained hands-on experience with real-time data handling, sensor fusion, and UART communication. Additionally, I learned how to implement device interrupts and developed practical problem-solving skills when dealing with sensor calibration and noise.
+
+## Key collaborators
+3Dfusion.py GK
+Extra (fluff) peripherals Yulyuri
+
