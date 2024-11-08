@@ -1,7 +1,7 @@
 # EE2028-Stm32L475
 
 ## STM32 Ghost Detection Project
-This repository contains the firmware for a project focused on using the STM32 microcontroller for ghost detection and characterization. Developed as part of the EE2028 - Microcontroller Interfacing and Programming module in AY2023/2024, the project incorporates multiple sensors and unique features to create an interactive ghost-hunting experience.
+This repository contains the firmware for a project focused on using the STM32 microcontroller for ghost detection and characterization. Developed as part of the EE2028 - Microcontroller Interfacing and Programming module in AY2024/2025, the project incorporates multiple sensors and unique features to create an interactive ghost-hunting experience.
 
 ## Core Features
 These are the essential implementations required for all students in the module:
