@@ -2,14 +2,14 @@
 #STM32 Ghost Detection Project
 This repository contains the firmware for a project focused on using the STM32 microcontroller for ghost detection and characterization. Developed as part of the EE2028 - Microcontroller Interfacing and Programming module in AY2023/2024, the project incorporates multiple sensors and unique features to create an interactive ghost-hunting experience.
 
-#Core Features
+##Core Features
 These are the essential implementations required for all students in the module:
 
-#Double Push Button Detection: Using interrupts to detect two quick button presses.
+##Double Push Button Detection: Using interrupts to detect two quick button presses.
 UART Telemetry: Sends telemetry data to a computer via UART for real-time monitoring.
 Sensor Data Integration: Reads data from onboard sensors, including a magnetometer, IMU, and environmental sensors (pressure and temperature).
 
-#Additional Features
+##Additional Features
 6-axis IMU 3D Visualization: Uses sensor fusion to display real-time orientation, providing immersive visualization for detecting ghost direction.
 Buzzer: Emits loud, high-frequency alerts when unusual readings are detected, working in sync with an LED for visual and audio cues.
 Infrared Reflective Sensor: Detects close objects to trigger a self-destruct sequence with engaging ASCII visuals, enhancing user experience.
